@@ -1,0 +1,31 @@
+{
+  "name": "Mix Playlist",
+  "albumCover": "/images/superman.jpg",
+  "releaseYear": "2024",
+  "tracks": [
+    {
+      "id": 1,
+      "name": "Superman",
+      "artist": "Eminem",
+      "path": "/songs/superman.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Mockingbird",
+      "artist": "Eminem",
+      "path": "/songs/mockingbird.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Umbrella",
+      "artist": "Rihanna",
+      "path": "/songs/umbrella.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Diamonds",
+      "artist": "Rihanna",
+      "path": "/songs/diamonds.mp3"
+    }
+  ]
+}

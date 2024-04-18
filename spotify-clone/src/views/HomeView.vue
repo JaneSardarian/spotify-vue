@@ -16,8 +16,8 @@ import HomeCard from '../components/HomeCard.vue'
       <div class="flex items-center">
         <home-card
           image="https://picsum.photos/seed/9/200/200"
-          title="Title is here"
-          sub-title="Subtitle is here"
+          title="Title is here 1"
+          sub-title="Subtitle is here 1"
         />
 
         <home-card

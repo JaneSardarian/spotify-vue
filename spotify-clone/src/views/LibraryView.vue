@@ -64,7 +64,7 @@ const playFunc = () => {
               @click="playFunc()"
             >
               <Play v-if="!isPlaying" fillColor="#181818" :size="25" />
-              <Play v-else fillColor="#181818" :size="25" />
+              <Pause v-else fillColor="#181818" :size="25" />
             </button>
             <button type="button">
               <Heart fillColor="#18D760" :size="30" />

@@ -17,15 +17,39 @@
     },
     {
       "id": 3,
-      "name": "Umbrella",
-      "artist": "Rihanna",
-      "path": "/songs/umbrella.mp3"
+      "name": "Lose Yourself",
+      "artist": "Eminem",
+      "path": "/songs/lose-yourself.mp3"
     },
     {
       "id": 4,
-      "name": "Diamonds",
-      "artist": "Rihanna",
-      "path": "/songs/diamonds.mp3"
+      "name": "Love The Way You Lie",
+      "artist": "Eminem & Rihanna",
+      "path": "/songs/love-the-way-you-lie.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Rap God",
+      "artist": "Eminem",
+      "path": "/songs/rap-god.mp3"
+    },
+    {
+      "id": 6,
+      "name": "Soldier",
+      "artist": "Eminem",
+      "path": "/songs/soldier.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Space Bound",
+      "artist": "Eminem",
+      "path": "/songs/space-bound.mp3"
+    },
+    {
+      "id": 8,
+      "name": "Beautiful Pain",
+      "artist": "Eminem & Sia",
+      "path": "/songs/beautiful-pain.mp3"
     }
   ]
 }

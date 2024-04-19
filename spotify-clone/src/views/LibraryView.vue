@@ -6,6 +6,20 @@ import Pause from 'vue-material-design-icons/Pause.vue'
 import ClockTimeThreeOutline from 'vue-material-design-icons/ClockTimeThreeOutline.vue'
 import artist from '../artist.json'
 import SongRow from '../components/SongRow.vue'
+
+import { useSongStore } from '@/stores/song'
+import { storeToRefs } from 'pinia'
+
+const useSong = useSongStore()
+const { isPlaying, currentTrack, currentArtist } = storeToRefs(useSong)
+
+const playFunc = () => {
+  if (currentTrack.value) {
+    useSong.playOrPauseThisSong(currentArtist.value, currentTrack.value)
+    return
+  }
+  useSong.playFromFirst()
+}
 </script>
 <template>
   <div>
@@ -44,8 +58,12 @@ import SongRow from '../components/SongRow.vue'
           <div
             class="absolute flex gap-4 items-center justify-start bottom-0 mb-1.5"
           >
-            <button type="button" class="p-1 rounded-full bg-white">
-              <Play v-if="true" fillColor="#181818" :size="25" />
+            <button
+              type="button"
+              class="p-1 rounded-full bg-white"
+              @click="playFunc()"
+            >
+              <Play v-if="!isPlaying" fillColor="#181818" :size="25" />
               <Play v-else fillColor="#181818" :size="25" />
             </button>
             <button type="button">

@@ -165,6 +165,6 @@ let openMenu = ref(false)
       <router-view />
       <div class="mb-[100px]"></div>
     </div>
-    <music-player />
+    <music-player v-if="currentTrack" />
   </div>
 </template>
